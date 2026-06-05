@@ -1,6 +1,6 @@
 module github.com/konflux-ci/internal-services
 
-go 1.25.7
+go 1.26
 
 require (
 	github.com/go-logr/logr v1.4.3
@@ -10,7 +10,7 @@ require (
 	github.com/onsi/gomega v1.41.0
 	github.com/operator-framework/operator-lib v0.19.0
 	github.com/prometheus/client_golang v1.23.2
-	github.com/tektoncd/pipeline v1.12.0
+	github.com/tektoncd/pipeline v1.13.0
 	go.uber.org/zap v1.28.0
 	k8s.io/api v0.35.5
 	k8s.io/apimachinery v0.35.5
@@ -49,7 +49,7 @@ require (
 	github.com/go-openapi/swag/yamlutils v0.26.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/btree v1.1.3 // indirect
-	github.com/google/cel-go v0.28.0 // indirect
+	github.com/google/cel-go v0.28.1 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/pprof v0.0.0-20260604005048-7023385849c0 // indirect
